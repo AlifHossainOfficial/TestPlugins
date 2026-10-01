@@ -12,8 +12,8 @@ buildscript {
 
     dependencies {
         classpath("com.android.tools.build:gradle:8.7.3")
-        // Fixed JitPack snapshot dependency version
-        classpath("com.github.recloudstream:gradle:master-SNAPSHOT")
+        // Exact working commit hash for CloudStream Gradle Plugin
+        classpath("com.github.recloudstream:gradle:32895aedb6")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.1.0")
     }
 }

@@ -9,4 +9,4 @@ class CinedozeProvider : MainAPI() {
     override val hasMainPage = true
     override var lang = "bn"
     override val supportedTypes = setOf(TvType.Movie, TvType.TvSeries)
-}
+} 

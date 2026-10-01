@@ -12,8 +12,8 @@ buildscript {
 
     dependencies {
         classpath("com.android.tools.build:gradle:8.7.3")
-        // Exact working commit hash for CloudStream Gradle Plugin
-        classpath("com.github.recloudstream:gradle:32895aedb6")
+        // Official CloudStream Gradle plugin dependency
+        classpath("com.github.lagradost:gradle:master-SNAPSHOT")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.1.0")
     }
 }
